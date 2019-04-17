@@ -79,6 +79,7 @@ class SignIn extends Component {
               <Input
                 id="email"
                 name="email"
+                type="email"
                 autoComplete="email"
                 autoFocus
                 onChange={this.handleChange}
