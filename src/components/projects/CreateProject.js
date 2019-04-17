@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { createProject } from "../../store/actions/projectActions";
 import { Redirect } from "react-router-dom";
-import Button from "@material-ui/core/Button";
 
 class CreateProject extends Component {
   state = {
