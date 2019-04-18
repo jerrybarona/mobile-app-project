@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render ProjectSummary component and match snapshot 1`] = `
+<div
+  className="card z-depth-0 project-summary"
+>
+  <div
+    className="card-content grey-text text-darken-3"
+  >
+    <span
+      className="card-title "
+    >
+      foo
+    </span>
+    <p>
+      Posted by 
+      John
+       
+      Doe
+    </p>
+    <p
+      className="grey-text"
+    >
+      04/11/2019
+    </p>
+  </div>
+</div>
+`;
