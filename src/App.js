@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
+import BottomNavBar from "./components/layout/BottomNavBar";
 import Dashboard from "./components/dashboard/Dashboard";
 import ProjectDetails from "./components/projects/ProjectDetails";
 import SignIn from "./components/auth/SignIn";
@@ -23,6 +24,7 @@ class App extends Component {
               <Route path="/signup" component={SignUp} />
               <Route path="/create" component={CreateProject} />
             </Switch>
+            <BottomNavBar />
           </div>
         </BrowserRouter>
       </React.Fragment>
